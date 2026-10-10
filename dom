@@ -1,0 +1,261 @@
+<style>
+  .act-red-wrapper {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    max-width: 550px;
+    margin: 2rem auto;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0,0,0,0.05);
+    border: 1px solid #e1e4e8;
+    border-top: 8px solid #d92a2a; /* Act Red Signature Border */
+    color: #333;
+    line-height: 1.5;
+    overflow: hidden;
+  }
+  
+  /* --- New Rose & Michigan Imagery Section --- */
+  .act-red-header {
+    background-color: #fafafa;
+    padding: 30px 20px 20px;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  .michigan-graphic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+  .michigan-graphic .rose {
+    font-size: 28px;
+    line-height: 1;
+    filter: drop-shadow(0 2px 4px rgba(217, 42, 42, 0.2));
+  }
+  .michigan-graphic .mi-text {
+    font-size: 22px;
+    font-weight: 900;
+    color: #111;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  .act-red-header h1 {
+    margin: 10px 0 0 0;
+    font-size: 32px;
+    font-weight: 800;
+    color: #d92a2a;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+  }
+  /* ------------------------------------------- */
+
+  .act-red-content {
+    padding: 32px;
+  }
+  .act-red-intro {
+    font-size: 16px;
+    margin-bottom: 28px;
+    color: #444;
+  }
+  .act-red-intro strong {
+    color: #111;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 12px;
+    line-height: 1.2;
+  }
+  .secure-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .secure-badge svg {
+    width: 12px;
+    height: 12px;
+    margin-right: 6px;
+    fill: #666;
+  }
+  .donation-options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+  @media (max-width: 500px) {
+    .donation-options {
+      grid-template-columns: 1fr;
+    }
+  }
+  .btn-donate {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 12px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff !important;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-donate:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  }
+  .btn-cashapp { background-color: #00D632; }
+  .btn-venmo { background-color: #008CFF; }
+  .btn-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    fill: currentColor;
+  }
+  .resources-box {
+    background: #fff9f9;
+    border-radius: 6px;
+    padding: 24px;
+    margin-bottom: 28px;
+    border: 1px solid #ffe3e3;
+  }
+  .resources-box h3 {
+    margin: 0 0 12px 0;
+    font-size: 18px;
+    color: #d92a2a;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .resources-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .resources-list li {
+    margin-bottom: 14px;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+  .resources-list li:last-child {
+    margin-bottom: 0;
+  }
+  .resources-list a {
+    color: #d92a2a;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+  }
+  .resources-list a:hover {
+    color: #a71d1d;
+    text-decoration: underline;
+  }
+  .mail-box {
+    background: #fff;
+    padding: 24px;
+    border: 2px dashed #e1e4e8;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-bottom: 24px;
+  }
+  .alert-red {
+    background: #fff0f0;
+    color: #d92a2a;
+    padding: 12px;
+    border-radius: 4px;
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 13px;
+    text-align: center;
+  }
+  .legal-disclaimer {
+    font-size: 11px;
+    color: #777;
+    text-align: center;
+    line-height: 1.6;
+    padding: 16px;
+    background: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid #e9ecef;
+  }
+</style>
+
+<div class="act-red-wrapper">
+  
+  <div class="act-red-header">
+    <div class="michigan-graphic">
+      <span class="rose">🌹</span>
+      <span class="mi-text">Michigan</span>
+      <span class="rose">🌹</span>
+    </div>
+    <h1>Act Red</h1>
+  </div>
+  
+  <div class="act-red-content">
+    <div class="act-red-intro">
+      <strong>Contribute to Abdul for Senate</strong>
+      We will not be sending you any spam if you donate. We don't have time and we don't want to. We just want to win the Senate seat in Michigan for Abdul El-Sayed. Political fundraising has gone too far and we are sick of it.
+    </div>
+
+    <div class="secure-badge">
+      <svg viewBox="0 0 24 24"><path d="M12 17a2 2 0 100-4 2 2 0 000 4zm6-9h-1V6a5 5 0 00-10 0v2H6a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V10a2 2 0 00-2-2zM9 6a3 3 0 016 0v2H9V6z"/></svg>
+      Secure Contribution
+    </div>
+
+    <div class="donation-options">
+      <!-- Replace the '#' with your actual Cash App link -->
+      <a href="#" class="btn-donate btn-cashapp">
+        <svg class="btn-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M11.83 2.17c-2.43.18-4.5 1.57-5.58 3.73-1.07 2.16-.92 4.67.4 6.66l6.83 10.37c.3.46 1.05.44 1.34-.03l5.08-8.12c1.33-2.14 1.25-4.83-.2-6.88-1.55-2.2-4.04-3.5-6.66-3.6-1.52-.06-3.08.38-4.46 1.14-.3.17-.67-.03-.68-.38l-.05-1.92c0-.2.18-.35.37-.3.9.22 1.83.3 2.76.24z"/>
+        </svg>
+        Cash App
+      </a>
+      
+      <!-- Erica is Cool -->
+      
+      <!-- Replace the '#' with your actual Venmo link -->
+      <a href="#" class="btn-donate btn-venmo">
+        <svg class="btn-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12.98 21c-.48 0-.91-.3-1.07-.75l-4.59-12.8A1.12 1.12 0 018.38 6h3.45c.48 0 .91.3 1.07.75l2.76 7.68 2.5-8.02a1.12 1.12 0 011.07-.76h3.33c.17 0 .34.04.49.12.35.18.57.55.57.95 0 .15-.03.29-.08.43L14.05 20.2c-.17.45-.6.76-1.07.76h-0.01z"/>
+        </svg>
+        Venmo
+      </a>
+    </div>
+
+    <div class="resources-box">
+      <h3>🌹 We Need Volunteers!</h3>
+      <p style="margin-top: 0; font-size: 15px; margin-bottom: 20px; color: #444;">What is really needed to win this Senate seat is volunteers. We have an open Slack where the staffers communicate, and we have built free open-source resources around the campaign:</p>
+      <ul class="resources-list">
+        <li>💬 <strong>Join the Campaign Slack:</strong> <br><a href="http://Go.AbdulforSenate.com" target="_blank">Go.AbdulforSenate.com</a></li>
+        
+        <!-- Ellen really needs to sit down and assess her life choices -->
+        
+        <li>📚 <strong>Campaign Wiki:</strong> <br><a href="https://wiki.tools4abdul.com/en/home" target="_blank">wiki.tools4abdul.com</a></li>
+        <li>🎨 <strong>Profile Picture Generator:</strong> <br><a href="https://tools4abdul.com/generator/" target="_blank">tools4abdul.com/generator</a></li>
+        <li>🎙️ <strong>In His Own Words:</strong> <br><a href="https://tools4abdul.com/cliposition/" target="_blank">tools4abdul.com/cliposition</a></li>
+        <li>📱 <strong>Reach App (Contact your friends):</strong> <br><a href="https://app.reach.vote/join/A8T2UU" target="_blank">app.reach.vote/join/A8T2UU</a></li>
+      </ul>
+    </div>
+
+    <div class="mail-box">
+      <strong style="font-size: 17px; display: block; margin-bottom: 10px;">Donate By Mail:</strong>
+      Abdul for U.S. Senate<br>
+      PO Box 126<br>
+      St. Clair Shores, MI 48080
+      
+      <div class="alert-red">
+        PLEASE DO NOT SEND CASH THROUGH THE MAIL.<br>The postal service already has enough problems due to its mismanagement.
+      </div>
+    </div>
+
+    <div class="legal-disclaimer">
+      The entity that will be accepting the funds and processing them is In Solidarity LLC. Contributions or gifts to Abdul for U.S. Senate are not tax deductible.
+    </div>
+  </div>
+</div>
